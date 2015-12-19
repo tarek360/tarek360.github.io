@@ -1,0 +1,267 @@
+* { margin: 0; padding: 0; }
+
+h1 {
+   text-align: center;
+   margin: 0 0 16px 0;
+   padding: 0 0 16px 0;
+   font-size: 46px;
+   font-weight: bold;
+   letter-spacing: -2px;
+   border-bottom: 1px solid #999; }
+#i{
+   color:red;
+}
+
+#yo{
+   text-indent:-1em;
+}
+
+#contact{
+   text-align: center;
+}
+       body { font: 16px Helvetica, Sans-Serif; line-height: 24px; }
+       .clear { clear: both; }
+       #page-wrap { width: 800px; margin: 30px auto 0px; }
+       h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+       h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+       p { margin: 0 0 16px 0; }
+       a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+       a:hover { border-bottom-style: solid; color: black; }
+       ul { margin: 0 0 32px 17px; }
+       #objective { width: 500px; float: left; }
+       #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+       dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+       dd { width: 600px; float: right; }
+       dd.clear { float: none; margin: 0; height: 15px; }
+
+
+
+section#resume {
+ margin: 0 auto;
+ max-width: 960px; }
+ section#resume h1, section#resume h2, section#resume h3, section#resume h4, section#resume h5, section#resume h6 {
+   margin: 0; }
+ section#resume h2 {
+   margin: 0em 0 0.75em 0; }
+ section#resume h3, section#resume h4 {
+   margin-bottom: 0.25em; }
+ section#resume h3.position {
+   margin-bottom: 0.2em; }
+ section#resume h4.company {
+   margin-bottom: 0; }
+ section#resume ul {
+   list-style-type: square;
+   padding: 0 0 0 1.2em;
+   margin: 0.6em 0; }
+   section#resume ul li {
+     font-weight: 200;
+     margin-bottom: 0.3em;
+     letter-spacing: 0.03em;}
+ section#resume .col {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   float: left; }
+   section#resume .col.left {
+     padding-right: 3.5em;
+     width: 63%; }
+   section#resume .col.right {
+     padding-right: 1em;
+     width: 37%; }
+ section#resume .item {
+   margin-bottom: 1em;
+   border-left: 1px solid #aaa;
+   padding-left: 1em; }
+ section#resume .position, section#resume .school {
+ /*  font-weight: bold; */}
+ section#resume .date {
+   font-weight: normal;
+   font-size: 14px;
+   float: right;
+   color: #aaa; }
+ section#resume .project-name {
+   font-weight: bold;
+   margin-right: 0.4em; }
+ section#resume .print {
+   float: right;
+   color: black;
+   cursor: pointer;
+   font-weight: bold; }
+   section#resume .print img {
+     padding-left: 1px;
+     vertical-align: bottom; }
+ section#resume .more {
+   padding: 0.5em 0;
+   color: black;
+   clear: both;
+   overflow: hidden; }
+   section#resume .more a {
+     text-decoration: underline; }
+   section#resume .more .experience {
+     float: left; }
+   section#resume .more .projects {
+     float: right; }
+ section#resume .footer {
+   clear: both;
+   padding: 1.5em 0;
+   font-size: 0.7em;
+   text-align: center; }
+
+
+   section#inspiration {
+ max-width: 580px;
+ padding: 0 1em;
+ margin: 0 auto; }
+ section#inspiration h2 {
+   margin-bottom: 0; }
+ section#inspiration h3.author {
+   margin-top: 0; }
+ section#inspiration > section {
+   margin-bottom: 4em;
+   overflow: hidden; }
+ section#inspiration blockquote {
+   font-size: 1.2em; }
+ section#inspiration cite {
+   float: right;
+   margin-top: 0.5em; }
+   section#inspiration cite em {
+     font-style: normal; }
+ section#inspiration .verse-number {
+   font-size: 0.9em;
+   font-weight: bold;
+   margin-right: 0.25em;
+   color: gray; }
+
+
+aside.project {
+ float: left;
+ width: 360px;
+ padding: 0 0 0 40px;
+ line-height: 1.5; }
+ aside.project h1 {
+   margin: 0; }
+ aside.project p {
+   font-size: 0.9em; }
+ aside.project .descriptor, aside.project .involvement, aside.project .project-link, aside.project .github-link {
+   display: block; }
+ aside.project .project-link {
+   margin-bottom: 1.5em;
+   font-weight: bold; }
+ aside.project .github-link {
+   margin-bottom: 1.5em; }
+ aside.project .skills {
+   margin: 0.5em 0 0.75em 0; }
+   aside.project .skills .skill {
+     display: inline-block;
+     background-color: black;
+     color: white;
+     text-shadow: none;
+     padding: 0 0.4em;
+     margin: 0.1em 0;
+     font-size: 0.9em; }
+
+
+ header ul#contact {
+   font-family: 'Oxygen', sans-serif;
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+   font-size: 1.2em;
+   margin: 0.5em 0 0;
+   border-top: 1px solid #bbb;
+   border-bottom: 1px solid #bbb;
+   padding: 0.4em 0; }
+   ul#contact img {
+     width: 18px;
+     vertical-align: bottom;
+     margin-right: 0.2em; }
+  ul#contact li {
+     display: inline-block;
+     padding: 0 1em; }
+
+.bottom{
+ display: inline-block;
+   float: left;
+   margin-bottom: 0px;
+
+
+}
+
+.items{
+ width: 250px;
+ padding-right:2px;
+ padding-left: 10px;
+ display: inline-block;
+   vertical-align: top;
+}
+
+/* #Basic Styles
+================================================== */
+ body {
+   font: 14px/21px "proxima_nova_rgregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: #4f4f4f;
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+   -webkit-text-size-adjust: 100%;
+}
+
+
+/* #Typography
+================================================== */
+ h1, h2, h3, h4, h5 {
+   color: #4f4f4f;
+   font-family: "proxima_nova_ltbold", "HelveticaNeue", sans-serif;
+ /*  text-shadow: 0px -1px #252525;*/
+   font-weight: normal; }
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+ h1 {  text-shadow: 0px -1px #252525; font-weight: bold; font-size: 50px; line-height: 50px; margin-bottom: 14px;}
+ h2 {  font-weight: bold;}
+ /*h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+ h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+ h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+ h5 { font-size: 17px; line-height: 24px; }
+ h6 { font-size: 14px; line-height: 21px; }
+ .subheader { color: #777; }*/
+
+ h4 { font-size: 13px;  font-weight: 200; line-height: 19px;  }
+
+ p { margin: 0 0 20px 0; }
+ p img { margin: 0; }
+ p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+ em { font-style: italic; }
+ strong { font-weight: bold; color: #333; }
+ small { font-size: 80%; }
+
+/*  Blockquotes  */
+ blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+ blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+ blockquote cite { display: block; font-size: 12px; color: #555; }
+ blockquote cite:before { content: "\2014 \0020"; }
+ blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+ hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+ a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+ a:hover, a:focus { color: #000; }
+ p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+ ul, ol { margin-bottom: 20px; }
+ ul { list-style: none outside; }
+ ol { list-style: decimal; }
+ ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ ul.square { list-style: square outside; }
+ ul.circle { list-style: circle outside; }
+ ul.disc { list-style: disc outside; }
+ ul ul, ul ol,
+ ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+ ul ul li, ul ol li,
+ ol ol li, ol ul li { margin-bottom: 6px; }
+ li { line-height: 17.3px; margin-bottom: 12px; }
+ ul.large li { line-height: 21px; }
+ li p { line-height: 21px; }
