@@ -8,6 +8,23 @@ h1 {
    font-weight: bold;
    letter-spacing: -2px;
    border-bottom: 1px solid #999; }
+   
+   .the-name{
+          letter-spacing: 3px;
+      
+   }
+   
+   .the-name small{
+      display: block;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 9px;
+    color: #333;
+    text-shadow: none;
+      
+   }
+   
+   
 #i{
    color:red;
 }
